@@ -1,0 +1,19 @@
+# # Ignore trained models
+# models_m2/
+
+# # Ignore Python cache
+# __pycache__/
+
+# # Ignore Streamlit cache
+# .streamlit/
+
+# # Ignore temporary files
+# *.pkl
+# *.h5
+# *.log
+# # 
+models_m2/
+*.pkl
+*.h5
+__pycache__/
+.streamlit/
