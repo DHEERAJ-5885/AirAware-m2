@@ -17,3 +17,9 @@ models_m2/
 *.h5
 __pycache__/
 .streamlit/
+# Ignore big model and cache folders
+models_m2/
+__pycache__/
+.streamlit/
+*.pkl
+*.h5
