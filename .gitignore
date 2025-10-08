@@ -12,14 +12,21 @@
 # *.h5
 # *.log
 # # 
+# models_m2/
+# *.pkl
+# *.h5
+# __pycache__/
+# .streamlit/
+# # Ignore big model and cache folders
+# models_m2/
+# __pycache__/
+# .streamlit/
+# *.pkl
+# *.h5
+# Ignore model files, cache, and Streamlit logs
 models_m2/
-*.pkl
-*.h5
 __pycache__/
 .streamlit/
-# Ignore big model and cache folders
-models_m2/
-__pycache__/
-.streamlit/
 *.pkl
 *.h5
+*.joblib
